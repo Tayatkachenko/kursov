@@ -1,0 +1,17 @@
+@media (max-width: 1023px){
+   .slider-wrapper .slide-button{
+     display: none!important;
+   }
+   .slider-wrapper .image-list{
+     gap:100px;
+     margin-bottom: 15px;
+   }
+   .slider-wrapper .image-list .image-item{
+     width: 280px;
+     height: 380px;
+     /* padding: 1px; */
+   }
+   .slider-scrollbar .scrollbar-thumb{
+     width: 20%;
+   }
+ }

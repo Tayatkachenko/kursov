@@ -1,0 +1,30 @@
+.footer{
+   padding: 35px 100px 0px 60px ;
+ 
+ }
+ .footer-box h3{
+   font-weight: 600;
+   margin-bottom: 10px;
+ }
+ 
+ .footer-box li{
+   text-decoration: none;
+   list-style: none;
+ }
+ .footer-box li a{
+   color: black;
+   text-decoration: none;
+   list-style: none;
+   
+ }
+ 
+ .footer-box li a:hover{
+   color: rgb(255, 167, 90);
+ }
+ 
+ .contact{
+   display: flex;
+   flex-direction: column;
+   row-gap: 0.5rem;
+ }
+ 
