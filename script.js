@@ -1,7 +1,7 @@
-// function openPdf() {
-//    var pdfPath = 'menu/menu.pdf';
-//    window.open(pdfPath, '_blank');
-// }
+function openNewPage() {
+  // Открываем новую страницу (можно указать URL новой страницы)
+  window.open('http://127.0.0.1:5500/our-store.html', '_blank');
+}
 
 //наша галерея
 const initSlider = () => {

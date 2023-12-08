@@ -14,7 +14,7 @@
    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
    <link rel="preconnect" href="https://fonts.googleapis.com">
    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-   <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+   <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
 </head>
 
@@ -29,9 +29,13 @@
 
                </div>
                <div class="nav">
-                  <a class="nav-item" href="#"> MENU </a>
-                  <a class="nav-item" href="#"> OUR GALLERY </a>
-                  <a class="nav-item" href="#"> MAP</a>
+                  <a class="nav-item" href="#menu"> MENU </a>
+                  <a class="nav-item" href="#our gallery"> OUR GALLERY </a>
+                  <a class="nav-item" href="#map"> MAP</a>
+                  <a class="nav-item" href="#"> RESERVATION</a>
+                  <a class="nav-item" href="/login.html"> LOGIN</a>
+                  <a class="nav-item" href="/register.html"> REGISTER</a>
+                  
                </div>
             </div>
 
@@ -46,9 +50,9 @@
                      home of the best coffee
                   </div>
                   <div class="header-btn">
-                     <a href="javascript:void(0);" class="header-button" onclick="openPdf()">
-                        <button class="custom-btn btn-8"><span>Our Store</span></button>
-                    </a>
+                    
+                      
+                        <button class="custom-btn btn-8" onclick="openNewPage()"><span>Our Store</span></button>
                   </div>
                </div>
             </div>
@@ -74,11 +78,10 @@
                <img class="card-img" src="/images/Mask_group.png">
             </div>
             <div class="card-title">
-               Best Quality <span> Food</span>
+               Best Quality of<span> Coffee</span>
             </div>
             <div class="card-desc">
-               The quality of our food
-               is excellent!
+               The quality of our coffee is excellent!
             </div>
          </div>
          <div class="card">
@@ -86,13 +89,12 @@
                <img class="card-img" src="/images/Mask_group.png">
             </div>
             <div class="card-title">
-               Inexpensive <span> Food</span>
+               Inexpensive <span> Coffee</span>
             </div>
             <div class="card-desc">
-               The cost of our food
-               depends solely on the amount
-               quantity. Quality
-               always at its best!
+               The price of our coffee depends 
+               solely on the quantity. The quality
+                is always on top!
             </div>
          </div>
       </div>
@@ -100,7 +102,7 @@
    </div>
    <section class="products" id="products">
       <div class="heading">
-         <h2>Menu</h2>
+         <h2 id="menu">Menu</h2>
       </div>
       <div class="products-container">
          <div class="box">
@@ -161,7 +163,7 @@
          </div>
       </div>
    </section>
-<div class="our_gallery">
+<div class="our_gallery" id="our gallery">
       Our gallery</div>
 <div class="container">
    <div class="slider-wrapper">
@@ -195,7 +197,7 @@
 
 <section class="our-map">
    <div class="map">
-       <div class="map-text">
+       <div class="map-text" id="map">
          WE ARE ON THE MAP
       </div>
       <div class="link-map">
@@ -209,16 +211,16 @@
       <h3> Cafe </h3>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, perferendis.</p>
       <div class="social">
-         <a href="#"><i class='bx bxl-facebook'></i></a>
-         <a href="#"><i class='bx bxl-twitter'></i></a>
-         <a href="#"><i class='bx bxl-instagram'></i></a>
-         <a href="#"><i class='bx bxl-tiktok'></i></a>
+         <a href="#"><i class="bx bxl-facebook"></i></a>
+         <a href="#"><i class="bx bxl-twitter"></i></a>
+         <a href="#"><i class="bx bxl-instagram"></i></a>
+         <a href="#"><i class="bx bxl-tiktok"></i></a>
       </div>
    </div>
    <div class="footer-box">
       <h3>Support</h3>
       <li><a href="#">Product</a></li>
-      <li><a href="#">Help & Support</a></li>
+      <li><a href="#">Help and Support</a></li>
       <li><a href="#">Return Policy</a></li>
       <li><a href="#">Terms Of Use</a></li>
       <li><a href="#">Product</a></li>
@@ -234,9 +236,9 @@
    <div class="footer-box">
       <h3>Contact</h3>
       <div class="contact">
-         <span><i class='bx bxs-map' ></i>50 Dragomanova</span>
-         <span><i class='bx bxs-phone' ></i>+38(099) 009 00 01</span>
-         <span><i class='bx bxs-envelope' ></i>T&J@gmail.com</span>
+         <span><i class="bx bxs-map" ></i>50 Dragomanova</span>
+         <span><i class="bx bxs-phone" ></i>+38(099) 009 00 01</span>
+         <span><i class="bx bxs-envelope" ></i>T&J@gmail.com</span>
       </div>
    </div>
 </section>
