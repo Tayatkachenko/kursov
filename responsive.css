@@ -1,3 +1,16 @@
+@media(max-width:1300px){
+  .header-title{
+    position: static;
+  }
+  .header-suptitle:before
+  .header-suptitle:after{
+    content: none;
+  }
+  /* .header{
+
+  } */
+}
+
 @media (max-width: 1023px){
    .slider-wrapper .slide-button{
      display: none!important;
@@ -13,4 +26,14 @@
    .slider-scrollbar .scrollbar-thumb{
      width: 20%;
    }
+ }
+
+ @media(max-width:1185px){
+  .nav,
+  .card{
+    flex-direction: column;
+  }
+  .header-line{
+    justify-content: space-between;
+  }
  }
